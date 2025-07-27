@@ -1,6 +1,6 @@
 # Harmonizing Feature Maps: A Graph Convolutional Approach for Enhancing Adversarial Robustness
 
-Welcome to the official code repository for our NeurIPS 2023 submission paper "Harmonizing Feature Maps: A Graph Convolutional Approach for Enhancing Adversarial Robustness". This repository contains the PyTorch implementation of our proposed method.
+Welcome to the official code repository for our paper "Harmonizing Feature Maps: A Graph Convolutional Approach for Enhancing Adversarial Robustness". This repository contains the PyTorch implementation of our proposed method.
 
 ## Implementation
 
