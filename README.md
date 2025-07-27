@@ -6,24 +6,6 @@ Welcome to the official code repository for our paper "Harmonizing Feature Maps:
 
 The provided PyTorch code includes the implementation of our graph convolution-based denoising block, as well as the method for reconstructing the graph with correlated feature map data. We also provide example scripts for training and testing models using our proposed method.
 
-## Directory Structure
-
-The repository is structured as follows:
-
-- `models/`: This directory contains the different network architectures used in our paper, including our proposed model with graph convolution-based denoising block.
-- `README.md`: The file you're currently reading.
-- `configs.yml`: This configuration file sets the parameters for adversarial training.
-- `configs_simple.yml`: This configuration file sets the parameters for standard training.
-- `configs_test.yml`: This configuration file sets the parameters for testing the model's robustness against attacks.
-- `test_net.py`: This script is used for testing the standard training network's robustness against adversarial attacks.
-- `train_free.py`: This script is used for adversarial training.
-- `train_simple.py`: This script is used for standard training.
-- `utils.py`: This file includes utility functions used across the project.
-- `utils_AT.py`: This file includes utility functions specific to adversarial training.
-- `validation.py`: This script is used for validating the trained models.
-
-## Testing and Training Scripts
-
 ## Training Models
 
 To train a network, open `train_simple.py` and set the desired network architecture. For example, you can use a wide residual network with depth 32 and widen factor 10 by setting `net = WRN32_10()`.
