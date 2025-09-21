@@ -24,3 +24,16 @@ The `test_net.py` script is used to evaluate the robustness of the models traine
 - AutoAttack
 
 These attacks provide a comprehensive evaluation of the model's robustness under different adversarial conditions.
+
+---
+
+### 📖 Citation
+
+If you find this work useful in your research, please cite our paper:
+
+@article{zhang2024harmonizing,
+  title={Harmonizing Feature Maps: A Graph Convolutional Approach for Enhancing Adversarial Robustness},
+  author={Zhang, Kejia and Weng, Juanjuan and Wu, Junwei and Yang, Guoqing and Li, Shaozi and Luo, Zhiming},
+  journal={arXiv preprint arXiv:2406.11576},
+  year={2024}
+}
